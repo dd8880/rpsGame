@@ -135,7 +135,7 @@ function showDraw() {
 
 //background music//
 
-document.querySelector("#mute_button").addEventListener("click", muteSound);
+document.querySelector("#mute_button").addEventListener("click", playBackGroundMusic);
 // function muteSound() {
 //   sfx.pause ();
 // }
