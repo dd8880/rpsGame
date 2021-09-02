@@ -143,6 +143,9 @@ document.querySelector("#mute_button").addEventListener("click", playBackGroundM
 function playBackGroundMusic() {
   console.log("function playBackGroundMusic()");
   sfx.play();
+  document.querySelector("#mute_button").textContent = "Mute";
+  document.querySelector("#mute_button").removeEventListener("click", playBackGroundMusic);
+  document.querySelector("#mute_button").addEventListener("click", muteSound);
   }
   
   function muteSound() {
