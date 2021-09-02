@@ -13,7 +13,7 @@ console.log(sfx);
 // start();
 
 function startApp() {
-  sfx.play();
+  // sfx.play();
   console.log("start");
   getPlayerChoice();
 }
